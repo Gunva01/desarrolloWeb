@@ -1,5 +1,109 @@
 *{
-    margin:0;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.image-container{
+    display: flex;
+}
+.image-container img{
+    width: 100%;
+}
+
+/* Acá tengo los estilos del header*/
+header {
+    background: #484948;
+    padding: 10px 50px;
+}
+#nerv{
+    width: 70px;
+}
+#nerv  {
+    border-radius: 100%;
+    border:1px solid red
+}
+
+/*aca estan los estilos del hero*/
+#hero{
+    position: relative;
+}
+#hero #background{
+    display:inline-block;
+    width: 100%;
+    opacity: 0.88;
+
+}
+
+#hero .informacion-contenedor{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    width: 100%;
+    color: white;
+    padding: 0 50px;
+    
+}
+#hero .informacion-contenedor #fotoperfil{
+    width: 200px;
+    height: 200px;
+    
+}
+#hero .informacion-contenedor img{
+    
+    border-radius: 25%;
+    border: 4px solid purple;  
+     
+}
+#hero .informacion-contenedor .informacion{
+    background-color: #252525ab;
+    font-weight: bold;
+    margin-left: 40px;
+    border-radius: 30px;
+    padding: 20 20;
+    width: calc(100% - 200px);
+}
+
+#hero .informacion-contenedor .informacion span {
+    color: b5b5b5;
+    margin-bottom: 70px;
+    display: inline-block;
+}
+
+/*estilos del main*/
+
+main{
+    padding: 100px;
+}
+main .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    list-style: none;
+}
+main .social-icons li{
+    margin-left: 4px;
+}
+main .social-icons .social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+main .social-icons .social-icon img{
+    width: 45px;
+}
+
+footer{
+    background: rgb(179, 86, 140);
+    border-radius: 20px;
+    
 }
