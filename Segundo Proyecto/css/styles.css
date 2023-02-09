@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(33, 33, 51);
+}
+.principal img{ /* Esto es un selectocompuesto desenciente*/
+    border-radius: 100%;
+}
+nav{
+    color: white;
+}
+header .header img{ 
+    width: 140px;
+    height: 30px;
+}
+header {
+    
+    background: rgb(117, 60, 170);
+    height: 30px;
+}
