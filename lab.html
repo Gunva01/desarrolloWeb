@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            border-radius: 4px;
+        }
+        .maintable{
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid rgb(92, 89, 89);
+            background: white;
+        }
+        body{
+            background: rgb(179, 177, 177);
+            position: absolute;
+        }
+        .iniciar input{
+            margin-top: 20px;
+            float: right;
+            color: white;
+            background-color: rgb(72, 72, 112);
+        }
+        .zip input{
+            size: 4;
+        }
+        .address input{
+            size:50
+        }
+    </style>
+</head>
+<body>
+    <div class="maintable">
+        <table>
+            <form action="#">
+                <tr>
+                    <td>
+                        <label for="email">Email</label><br>
+                        <input type="text" name="email" id="email">
+                    </td>
+                    <td>
+                        <label for="password">Password</label><br>
+                        <input type="password" name="password" id="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="address">
+                        <label for="address">Address</label><br>
+                        <input type="text" name="address" id="address">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="address" colspan="3">
+                        <label for="address2">Address 2</label><br>
+                        <input type="text" name="address2" id="address2">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="half">
+                        <label for="city">City</label><br>
+                        <input type="text" name="city" id="city">
+                    </td>
+                    <td>
+                        <label for="state">State</label><br>
+                        <input type="text" name="" id="">
+                    </td>
+                    <td class="zip">
+                        <label for="zip">ZIP</label><br>
+                        <input type="text" name="zip" id="zip0">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="iniciar" colspan="3">
+                        <input type="button" value="Sign in">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </div>
+</body>
+</html>
